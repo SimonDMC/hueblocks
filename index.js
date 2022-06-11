@@ -193,9 +193,7 @@ function updateSteps() {
 		  dbp2 = Math.pow(b1 - b2, 2),
 		  t = (r1 + r2) / 2
   
-	let result = (256*3) - Math.sqrt(2 * drp2 + 4 * dgp2 + 3 * dbp2 + t * (drp2 - dbp2) / 256);
-	console.log(result);
-	return result
+	return (256*3) - Math.sqrt(2 * drp2 + 4 * dgp2 + 3 * dbp2 + t * (drp2 - dbp2) / 256);
 }
 
 
